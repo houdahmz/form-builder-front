@@ -3,26 +3,27 @@
         "page_label": "Job Application Form",
         "fields": [
             {
-                "field_id": "english_name",
-                "field_label": "Name",
-                "field_mandatory": "yes",
-                "field_placeholder": "Enter name",
-                "field_type": "text",
-                "field_value": ""
+                "name": "english_name",
+                "label": "Name",
+                "mandatory": "yes",
+                "placeholder": "Enter name",
+                "type": "radio",
+                "options": [{"label":"hi", "value": "bye"},{"label":"hi", "value": "bye"}],
+                "value": ""
             },
             {
-                "field_id": "email",
-                "field_label": "Email",
-                "field_mandatory": "yes",
-                "field_placeholder": "Enter email",
-                "field_type": "text"
+                "name": "email",
+                "label": "Email",
+                "mandatory": "yes",
+                "placeholder": "Enter email",
+                "type": "text"
             },
             {
-                "field_id": "employment",
-                "field_label": "Employment desired",
-                "field_value": "Part-Time",
-                "field_mandatory": "yes",
-                "field_options": [
+                "name": "employment",
+                "label": "Employment desired",
+                "value": "Part-Time",
+                "mandatory": "yes",
+                "options": [
                     {
                         "option_label": "Full-Time"
                     },
@@ -30,27 +31,27 @@
                         "option_label": "Part-Time"
                     }
                 ],
-                "field_type": "select"
+                "type": "select"
             },
             {
-                "field_id": "contact",
-                "field_label": "Contact No.",
-                "field_mandatory": "yes",
-                "field_placeholder": "Enter contact no.",
-                "field_type": "text"
+                "name": "contact",
+                "label": "Contact No.",
+                "mandatory": "yes",
+                "placeholder": "Enter contact no.",
+                "type": "text"
             },
             {
-                "field_id": "driving_license",
-                "field_label": "I confirm to have driving license.",
-                "field_type": "checkbox",
-                "field_value": "checked"
+                "name": "driving_license",
+                "label": "I confirm to have driving license.",
+                "type": "checkbox",
+                "value": "checked"
             },
             {
-                "field_id": "identity",
-                "field_label": "Driving License No.",
-                "field_mandatory": "yes",
-                "field_placeholder": "e.g. 012 345 678",
-                "field_type": "text"
+                "name": "identity",
+                "label": "Driving License No.",
+                "mandatory": "yes",
+                "placeholder": "e.g. 012 345 678",
+                "type": "text"
             }
         ]
     }
